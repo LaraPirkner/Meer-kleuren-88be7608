@@ -5,10 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>back ground</title>
 </head>
-<body id="body">
-    <h1>Change the back ground colour!</h1>
-        <input type="color" id="colorSelect">
-    <button type="button" onclick="changeBg('color');">click me</button>
+<body id="body" >
+    <h1 id="title">Change the back ground colour and even save it!</h1>
+
+    <form>
+    <input type="color" id="colorSelect">
+    </form>
+    
+    <button onclick="Bg();">Save the colour.</button>
+    <button onclick="apply();">Apply the colour.</button>
+    <button onclick="titlecolour();">Save the title colour</button>
 
     <script src="script.js"></script>
 </body>
